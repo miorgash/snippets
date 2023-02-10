@@ -1,4 +1,4 @@
-FROM python:3.7.12
+FROM armswdev/tensorflow-arm-neoverse:latest
 RUN apt update -y && \
     apt upgrade -y && \
     apt install sudo apt-utils vim git -y
